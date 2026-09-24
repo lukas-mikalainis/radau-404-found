@@ -1,0 +1,33 @@
+{
+  "name": "radau-404-found",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "concurrently -k \"node --env-file-if-exists=.env --watch server/index.js --dev\" \"vite --host 127.0.0.1\"",
+    "build": "vite build",
+    "start": "node --env-file-if-exists=.env server/index.js",
+    "test": "node --test tests/*.test.js",
+    "test:browser": "node tests/browser-check.mjs",
+    "format": "prettier --write src server shared tests vite.config.js",
+    "demo": "node --env-file-if-exists=.env server/index.js --demo"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "lucide-react": "^0.468.0",
+    "multer": "^2.0.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.1",
+    "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "concurrently": "^9.2.1",
+    "prettier": "^3.9.8",
+    "vite": "^7.1.7"
+  }
+}
