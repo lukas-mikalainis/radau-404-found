@@ -1,6 +1,6 @@
 # Publication check
 
-**Decision: REVIEW REQUIRED before publishing the whole workspace.**
+
 
 Audit date: 2026-09-24. No publishing, repository creation or remote changes were performed.
 
