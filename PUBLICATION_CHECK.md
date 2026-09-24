@@ -32,7 +32,6 @@ The source inspection found no hardcoded live passwords, API keys, private keys,
 - Copyright/permission for lecturer slides and extracted text. Do not include originals merely because they are in the same folder.
 - Any new screenshots, actual user records or images added after this audit.
 - The remote server's code, environment and stored data: not accessible in this audit.
-- Any existing remote repository/history: the local directory is **not a Git repository**, so no commits existed here to examine.
 - Third-party dependency licenses before choosing a repository license. This audit does not assign ownership of teammates' work.
 
 ## Checks performed
